@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net47</TargetFramework>
+    <AssemblyName>SpeckleConnectorIAppGeometric</AssemblyName>
+    <RootNamespace>Speckle.ConnectorIAppGeometric</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DesktopUI2\DesktopUI2\DesktopUI2.csproj" />
+    <ProjectReference Include="..\Objects\Objects\Objects.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="IA.BLL">
+      <HintPath>C:\IngenieumApp\IA.BLL\bin\Debug\net47\IA.BLL.dll</HintPath>
+    </Reference>
+    <Reference Include="IA.Model">
+      <HintPath>C:\IngenieumApp\IA.Model\bin\Debug\netstandard2.0\IA.Model.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
