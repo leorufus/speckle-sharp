@@ -153,6 +153,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IngeniumApp", "IngeniumApp"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectorIAppGeometric", "ConectorIAppGeometric\ConnectorIAppGeometric.csproj", "{5B9BB91D-3937-46CA-8C37-88AEBC930117}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConverterIngeniumApp", "ConverterIngeniumApp", "{6D9AB925-3E36-436A-91D8-364224384AAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConverterIAppGeometric", "ConverterIAppGeometric\ConverterIAppGeometric.csproj", "{86D9BC89-90F7-4469-8212-8B6E8D771F01}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		ConnectorMicroStation\ConnectorMicroStationOpenShared\ConnectorMicroStationOpenShared.projitems*{0420d74a-2997-4b92-844b-c3769deaa1ad}*SharedItemsImports = 4
@@ -567,6 +571,14 @@ Global
 		{5B9BB91D-3937-46CA-8C37-88AEBC930117}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5B9BB91D-3937-46CA-8C37-88AEBC930117}.Release|x64.ActiveCfg = Release|Any CPU
 		{5B9BB91D-3937-46CA-8C37-88AEBC930117}.Release|x64.Build.0 = Release|Any CPU
+		{86D9BC89-90F7-4469-8212-8B6E8D771F01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86D9BC89-90F7-4469-8212-8B6E8D771F01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86D9BC89-90F7-4469-8212-8B6E8D771F01}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{86D9BC89-90F7-4469-8212-8B6E8D771F01}.Debug|x64.Build.0 = Debug|Any CPU
+		{86D9BC89-90F7-4469-8212-8B6E8D771F01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86D9BC89-90F7-4469-8212-8B6E8D771F01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86D9BC89-90F7-4469-8212-8B6E8D771F01}.Release|x64.ActiveCfg = Release|Any CPU
+		{86D9BC89-90F7-4469-8212-8B6E8D771F01}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -643,6 +655,8 @@ Global
 		{98136BFC-A71B-48AD-B0D2-8A5A07FD3D6D} = {925C0BF6-A0B1-4699-9C4B-078E01D652CC}
 		{0DF5EB8E-B3A3-4744-9202-88D8D21BE792} = {DD7DA7E3-FBB7-4216-852B-A4A5BF3AB9AB}
 		{5B9BB91D-3937-46CA-8C37-88AEBC930117} = {0DF5EB8E-B3A3-4744-9202-88D8D21BE792}
+		{6D9AB925-3E36-436A-91D8-364224384AAE} = {4DE5ED81-2A55-4C23-A05F-3C9B9B06F85D}
+		{86D9BC89-90F7-4469-8212-8B6E8D771F01} = {6D9AB925-3E36-436A-91D8-364224384AAE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1D43D91B-4F01-4A78-8250-CC6F9BD93A14}

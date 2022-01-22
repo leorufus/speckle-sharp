@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>8.0</LangVersion>
+    <AssemblyName>Objects.Converter.AppGeometric</AssemblyName>
+    <RootNamespace>Objects.Converter.IApp</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Objects\Objects\Objects.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="IA.BLL">
+      <HintPath>C:\IngenieumApp\IA.BLL\bin\Debug\net47\IA.BLL.dll</HintPath>
+    </Reference>
+    <Reference Include="IA.Model">
+      <HintPath>C:\IngenieumApp\IA.Model\bin\Debug\netstandard2.0\IA.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="Utilities">
+      <HintPath>C:\IngenieumApp\Utilities\bin\Debug\netstandard2.0\Utilities.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

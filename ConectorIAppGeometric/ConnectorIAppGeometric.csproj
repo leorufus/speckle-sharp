@@ -7,8 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ConverterIAppGeometric\ConverterIAppGeometric.csproj" />
     <ProjectReference Include="..\DesktopUI2\DesktopUI2\DesktopUI2.csproj" />
-    <ProjectReference Include="..\Objects\Objects\Objects.csproj" />
   </ItemGroup>
 
   <ItemGroup>

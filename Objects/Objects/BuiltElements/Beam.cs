@@ -50,3 +50,14 @@ namespace Objects.BuiltElements.Revit
     }
   }
 }
+
+namespace Objects.BuiltElements.IApp
+{
+    public class IAppBeam : Beam
+    {
+        public double Height { get; set; }
+        public double Width { get; set; }
+
+        public int Storey { get; set; }
+    }
+}
